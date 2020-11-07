@@ -1,0 +1,12 @@
+{
+  "name": "node-cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:thomasvergne/node-cli.git",
+  "author": "thomasvergne <thomas@quark-lang.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
