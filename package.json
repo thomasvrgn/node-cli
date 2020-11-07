@@ -2,6 +2,7 @@
   "name": "node-cli",
   "version": "0.0.1",
   "main": "index.js",
+  "description": "Node CLI is the next generation CLI utility for Node.js. It provides new features such as the use of different loaders, a redesigned manager package.",
   "repository": "git@github.com:thomasvergne/node-cli.git",
   "author": "thomasvergne <thomas@quark-lang.dev>",
   "license": "MIT",
