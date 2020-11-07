@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "rootDirs": [],
+    "watch": true,
+    "target": "es5",
+    "module": "CommonJS",
+    "types": [
+      "node"
+    ],
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [],
+  "files": [
+    "main.ts"
+  ]
+}
