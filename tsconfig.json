@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "rootDirs": [],
+    "rootDirs": [
+      "cli/"
+    ],
     "watch": true,
     "target": "es5",
     "module": "CommonJS",
@@ -12,12 +14,19 @@
     "allowJs": true,
     "esModuleInterop": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "cli": [
+        "./cli/*"
+      ]
+    }
   },
   "exclude": [
     "node_modules"
   ],
-  "include": [],
+  "include": [
+    "./main.ts",
+    "./cli/**/*.ts"
+  ],
   "files": [
     "main.ts"
   ]
