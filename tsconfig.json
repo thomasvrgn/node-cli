@@ -4,7 +4,7 @@
       "cli/"
     ],
     "outDir": "dist",
-    "watch": true,
+    "watch": false,
     "target": "es5",
     "module": "CommonJS",
     "types": [
