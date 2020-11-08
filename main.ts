@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { Arguments } from './typings/arguments';
+import { Arguments } from 'typings/arguments';
 
 const args: string[] = process.argv.slice(2);
 const options: Arguments = {
