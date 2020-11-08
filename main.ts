@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node -r ts-node/register/transpile-only -r tsconfig-paths/register
 
 import { Parser } from 'cli/parser';
 import { Arguments } from 'typings/arguments';
