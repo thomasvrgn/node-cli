@@ -18,6 +18,9 @@
     "paths": {
       "cli": [
         "./cli/*"
+      ],
+      "typings": [
+        "./typings/*"
       ]
     }
   },
